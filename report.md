@@ -30,3 +30,4 @@
 # Reference
 
 [huggingface/peft/example/fp4_finetuning](https://github.com/huggingface/peft/blob/main/examples/fp4_finetuning/finetune_fp4_opt_bnb_peft.py)
+[how to use qlora](https://huggingface.co/blog/4bit-transformers-bitsandbytes)
