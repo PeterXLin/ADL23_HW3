@@ -137,7 +137,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 # Step 2: Load the dataset
 raw_dataset = load_dataset("json", data_files = {"train": script_args.train_path, "validation": script_args.test_path})
-raw_dataset['train'] = raw_dataset['train'].shuffle(seed = 42)
+# raw_dataset['train'] = raw_dataset['train'].shuffle(seed = 42)
 # if script_args.train_test_split:
 #     raw_dataset = raw_dataset['train'].train_test_split(test_size = script_args.train_test_split)
 #     test_dataset = raw_dataset.pop("test")
